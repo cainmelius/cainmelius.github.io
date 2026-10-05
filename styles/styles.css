@@ -16,22 +16,30 @@ p {
   text-decoration:line-through dotted black;
 }
 
-.top {
-    position: center;
+nav{
+    text-align: center;
 }
 
-.menuItems {
-  padding: 20px;
-  padding-bottom: 50px;
-  color: black;
+.navigation{
+  color:green;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.menuItems:hover
-.menuItems:focus {
-    background-color: black;
-    color: white;
+.navigation:hover,
+.navigation:focus {
+    text-decoration: none;
+    background-color: rgb(0, 61, 0);
+    color: rgb(253, 244, 225);
 }
 
 .name {
     text-align: center;
 }
+img {
+  position:relative;
+  width:100%;
+  height:auto;
+  object-fit:scale-down;
+}
+
