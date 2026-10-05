@@ -3,6 +3,10 @@ html {
   color: black;
 }
 
+body{
+  background-color: rgb(253, 244, 225);
+}
+
 p {
   text-decoration:dashed;
 }
@@ -11,6 +15,23 @@ p {
   color: grey;
   text-decoration:line-through dotted black;
 }
+
 .top {
     position: center;
+}
+
+.menuItems {
+  padding: 20px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.menuItems:hover
+.menuItems:focus {
+    background-color: black;
+    color: white;
+}
+
+.name {
+    text-align: center;
 }
