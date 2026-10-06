@@ -37,12 +37,15 @@ nav{
     text-align: center;
 }
 img {
-  width:100%;
-  height:auto;
+  width:auto;
+  height:100%;
   object-fit:scale-down;
 }
 
 .credits {
-  font-size: 12px;
+  font-size: 10px;
 }
 
+img{
+  padding-bottom: 20px;
+}
