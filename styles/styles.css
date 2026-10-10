@@ -41,11 +41,15 @@ img {
   object-fit:scale-down;
 }
 
-.gallary {
-  display: flex;
+.gallaryContainer {
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  column-gap: 10px;
+}
+
+.gallary {
   height:auto;
   width:33%;
 }
