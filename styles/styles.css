@@ -41,23 +41,30 @@ img {
   object-fit:scale-down;
 }
 
+.photoHeader {
+  display:flex;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
 .gallaryContainer {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   column-gap: 10px;
 }
 
 .gallary {
-  height:auto;
-  width:33%;
+  width: 32%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  padding-bottom: 10px;
 }
 
 .credits {
   font-size: 10px;
 }
 
-img{
-  padding-top: 20px;
-}
